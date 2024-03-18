@@ -373,7 +373,7 @@ let questions = [
 ### 4. `quizApp.js`
 The `quizApp.js` file is the heart of the Quiz App, where the main logic and functionality resides. It manages the quiz flow, handles user interactions, and updates the UI based on the user’s actions and quiz progress.
 
-#### 4.1 Key Sections of `questions.js`
+#### 4.1 Key Sections of `quizApp.js`
 - **Initialization and Event Listeners:**
 This section sets up the initial state of the quiz by selecting essential HTML elements using the 'document.querySelector' method. These elements are then used to manage the quiz’s state and respond to user interactions. Event listeners are attached to buttons like the <kbd> Start Quiz </kbd> button. When clicked, it triggers the display of the information box by adding the 'activeInfo' class, making it visible to the user. Also, adds event listeners to <kbd> Exit </kbd>, and <kbd> Continue </kbd> buttons to control the quiz flow.
 ```javascript
